@@ -1,0 +1,27 @@
+Xente is a Ugandan e-commerce startup that makes it easy for consumers to make payments, get loans, and shop using simply a mobile phone.
+
+The objective of this challenge is to create a machine learning model to predict what and when individuals will purchase next, based on their purchase history.
+
+The resulting models and solutions will help Xente with target marketing and catering to their customers’ needs better. For Xente, this may result in improved profitability and financial sustainability;
+while customers receive an app that is tailored to them.
+
+Xente is an e-payments, e-commerce, and financial services company in Uganda offering various products and services that can be paid for using Mobile Money 
+(Airtel Money, MTN Mobile Money), Bank Card (Visa Card, Master Card), Xente wallet and on credit (Pay Later). 
+Some of the products consumers can buy include airtime, data bundles, event tickets, movie tickets, bus tickets, and more. 
+They can also pay water and electricity bills and TV subscription services.
+
+<b> </b>
+The training data consists of individual transaction records. Each row contains an account ID (‘acc’), the time and date of the transaction (‘date’) and the product ID (‘PID’). Products can fall into several categories, as described in PID_Categories.csv. The training data covers the period from 2019-11-01 to 2020-02-23. SampleSubmission.csv shows the desired format for your predictions, covering the week beginning on 2020-02-23. Note that the sample submission file only includes rows for accounts that transacted during that time period - please ensure your submission matches the sample submission, with one row for each account for each day for each product.
+
+In order to make access to the data easier for all participants, we have provided download links. We recommend you download the data before the challenge. The data is password protected, and we will share the password to all universities as well as on the livestream when the competition opens.
+
+Dropbox
+GDrive (for direct transfer into Colab, remember to unzip files first)
+Zindi
+Folder codes will be shared on the day at 09:00 GMT on the University rep WhatsApp groups.
+
+The following files are available for download:
+
+Train.csv - is the dataset that you will use to train your model. It contains all transactions during the training period
+SampleSubmission.csv - is an example of what your submission file should look like. The order of the rows does not matter, but the names of the IDs(Account X date X PID) must be correct.
+PID_Categories.csv - The categories to which the various products belong
